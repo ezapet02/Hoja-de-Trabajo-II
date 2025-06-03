@@ -1,0 +1,24 @@
+{
+  "name": "hoja-de-trabajo-ii",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene **ejercicios prácticos** organizados por tema y nivel de dificulta.  \r Los ejercicios están pensados para reforzar los conocimientos adquiridos durante el curso de Programación I y prepararlos para el examen final.",
+  "homepage": "https://github.com/ezapet02/Hoja-de-Trabajo-II#readme",
+  "bugs": {
+    "url": "https://github.com/ezapet02/Hoja-de-Trabajo-II/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezapet02/Hoja-de-Trabajo-II.git"
+  },
+  "license": "ISC",
+  "author": "Eduardo Zapet",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.8.3"
+  }
+}
