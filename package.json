@@ -14,11 +14,14 @@
   "author": "Eduardo Zapet",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "dev": "ts-node ejercicios/ejercicio09.ts"
+},
   "dependencies": {
-    "readline-sync": "^1.4.10",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
