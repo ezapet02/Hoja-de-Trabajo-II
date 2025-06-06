@@ -22,13 +22,6 @@ interface Tarea{
 class GestorTareas {
     private tareas: Tarea[]=[]
 
-
-  constructor() {
-    this.agregarTarea("Estudiar para progra", Prioridad.ALTA)
-    this.agregarTarea("Lavar los trates", Prioridad.MEDIA)
-    this.agregarTarea("ordenar mi cuearto", Prioridad.BAJA)
-  }
-
     agregarTarea(titulo: string, prioridad: Prioridad){
        const nuevaTarea: Tarea = {
         id: Date.now(),
@@ -53,4 +46,8 @@ class GestorTareas {
 }
 
 const gestor = new GestorTareas()
+gestor.agregarTarea('Estudiar para el parcial', Prioridad.ALTA)
+gestor.agregarTarea('Revisar correo', Prioridad.MEDIA)
+gestor.agregarTarea("ordenar mi cuearto", Prioridad.BAJA)
+ 
 gestor.listarTareas()
